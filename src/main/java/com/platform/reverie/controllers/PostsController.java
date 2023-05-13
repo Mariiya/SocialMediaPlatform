@@ -15,17 +15,17 @@ public class PostsController {
 
     @GetMapping("/{id}/")
     public Collection<Post> getAllPosts() {
-        return Collections.EMPTY_LIST;
+        return Collections.emptyList();
     }
 
     @GetMapping(path = "/{id}")
     public Post getUser(@PathVariable BigInteger id) {
-        return null; //new Post();
+        return null;
     }
 
     @PostMapping()
     public Post createUser(@PathVariable Post post) {
-        return null; //new Post();
+        return null;
     }
 
 }
