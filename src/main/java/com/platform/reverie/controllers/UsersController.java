@@ -2,7 +2,6 @@ package com.platform.reverie.controllers;
 
 import com.platform.reverie.models.User;
 import com.platform.reverie.services.UserDaoService;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.web.bind.annotation.*;
 
 import java.math.BigInteger;

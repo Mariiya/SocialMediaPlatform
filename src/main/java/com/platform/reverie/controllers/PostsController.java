@@ -13,19 +13,19 @@ import java.util.Collections;
 @RestController()
 public class PostsController {
 
-  /*  @GetMapping("/{id}/")
+    @GetMapping("/{id}/")
     public Collection<Post> getAllPosts() {
         return Collections.EMPTY_LIST;
     }
 
     @GetMapping(path = "/{id}")
     public Post getUser(@PathVariable BigInteger id) {
-        return null;//new Post();
+        return null; //new Post();
     }
 
     @PostMapping()
     public Post createUser(@PathVariable Post post) {
-        return null;//new Post();
-    }*/
+        return null; //new Post();
+    }
 
 }
